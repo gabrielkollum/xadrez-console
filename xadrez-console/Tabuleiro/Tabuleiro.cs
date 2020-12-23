@@ -10,9 +10,9 @@
             this.colunas = colunas;
             pecas = new Peca[linhas, colunas];
         }
-        public override string ToString() {
-            return $"Linhas: {linhas}\n" +
-                $"Colunas: {colunas}";
+
+        public Peca peca(int linha, int coluna) {
+            return pecas[linha, coluna];
         }
     }
 }
