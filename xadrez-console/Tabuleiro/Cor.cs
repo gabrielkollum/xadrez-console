@@ -1,7 +1,12 @@
 ﻿namespace tabuleiro {
-    class Cor {
+    enum Cor {
 
-        //Branca;
-        //Preto;
+        Branca,
+        Preto,
+        Amarela,
+        Azul,
+        Vermelha,
+        Verde,
+        Laranja,
     }
 }
